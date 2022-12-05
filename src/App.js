@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Componente from './Components/Componente';
+import Props from './Components/Props';
+import Estado from './Components/Estado';
 
 function App() {
   return (
@@ -18,6 +21,16 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <section>
+
+    <Componente message="Esta es mi primera props"/>
+    <Props propiedad="Esto es una propiedad"/>
+    <Estado/>
+
+
+
+      </section>
     </div>
   );
 }
