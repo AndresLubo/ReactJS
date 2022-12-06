@@ -3,6 +3,7 @@ import './App.css';
 import Componente from './Components/Componente';
 import Props from './Components/Props';
 import Estado from './Components/Estado';
+import RenderizadoCondicional from './Components/Renderizado';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Componente message="Esta es mi primera props"/>
     <Props propiedad="Esto es una propiedad"/>
     <Estado/>
+    <RenderizadoCondicional/>
 
 
 
