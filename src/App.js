@@ -4,6 +4,7 @@ import Componente from './Components/Componente';
 import Props from './Components/Props';
 import Estado from './Components/Estado';
 import RenderizadoCondicional from './Components/Renderizado';
+import RenderizadoElementos from './Components/RenderizadoElementos';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
     <Props propiedad="Esto es una propiedad"/>
     <Estado/>
     <RenderizadoCondicional/>
+
+    <RenderizadoElementos/>
 
 
 
