@@ -10,6 +10,7 @@ import Padre from "./Components/ComunicacionComponentes";
 import CicloVida from "./Components/CicloVida";
 import AjaxApis from "./Components/AjaxApis";
 import ContadorHooks from "./Components/ContadorHooks";
+import ScrollHooks from "./Components/ScrollHooks";
 
 function App() {
   return (
@@ -60,6 +61,10 @@ function App() {
 
         <hr />
         <ContadorHooks />
+
+        <hr/>
+
+        <ScrollHooks/>
 
         <br />
         <br />
