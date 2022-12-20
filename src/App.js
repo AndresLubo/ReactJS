@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Componente from './Components/Componente';
-import Props from './Components/Props';
-import Estado from './Components/Estado';
-import RenderizadoCondicional from './Components/Renderizado';
-import RenderizadoElementos from './Components/RenderizadoElementos';
-import {EventosES6, EventosES7, MasSobreEventos} from './Components/Eventos';
-import Padre from './Components/ComunicacionComponentes';
-import CicloVida from './Components/CicloVida';
-import AjaxApis from './Components/AjaxApis';
+import logo from "./logo.svg";
+import "./App.css";
+import Componente from "./Components/Componente";
+import Props from "./Components/Props";
+import Estado from "./Components/Estado";
+import RenderizadoCondicional from "./Components/Renderizado";
+import RenderizadoElementos from "./Components/RenderizadoElementos";
+import { EventosES6, EventosES7, MasSobreEventos } from "./Components/Eventos";
+import Padre from "./Components/ComunicacionComponentes";
+import CicloVida from "./Components/CicloVida";
+import AjaxApis from "./Components/AjaxApis";
+import ContadorHooks from "./Components/ContadorHooks";
 
 function App() {
   return (
@@ -29,22 +30,41 @@ function App() {
       </header>
 
       <section>
+        <Componente message="Esta es mi primera props" />
+        <Props propiedad="Esto es una propiedad" />
+        <Estado />
+        <hr />
 
-    <Componente message="Esta es mi primera props"/>
-    <Props propiedad="Esto es una propiedad"/>
-    <Estado/>
-    <RenderizadoCondicional/>
+        <RenderizadoCondicional />
+        <hr />
 
-    <RenderizadoElementos/>
-    <EventosES6/>
-    <EventosES7/>
-    <MasSobreEventos/>
+        <RenderizadoElementos />
+        <hr />
 
-    <Padre/>
-    <CicloVida/>
-    <AjaxApis/>
+        <EventosES6 />
+        <hr />
 
-<br/><br/><br/><br/>
+        <EventosES7 />
+        <hr />
+
+        <MasSobreEventos />
+        <hr />
+
+        <Padre />
+        <hr />
+
+        <CicloVida />
+        <hr />
+
+        <AjaxApis />
+
+        <hr />
+        <ContadorHooks />
+
+        <br />
+        <br />
+        <br />
+        <br />
       </section>
     </div>
   );
